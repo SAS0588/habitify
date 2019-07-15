@@ -1,3 +1,43 @@
+# Habitify 
+- An app for creating new habits and managing old habits
+
+# Tools Required
+- Visual Studio Code
+- Node >= 8.10
+- npm >= 5.6
+- Google Chrome
+- React Developer Tools (a Google Chrome Extension for debugging)
+
+# To Start:
+1. Fork repository
+2. In terminal, check to make sure that Node >= 8.10 and npm >= 5.6
+    - for node: node -v
+    - for npm: npm -v
+    - If you need to upgrade either version see specific section below.
+2. In terminal, navigate to the directory and type in: npm start
+3. This will start a dev server at port `local:3000`
+4. Open habitify in `Visual Studio Code`
+
+# Hello World
+1. To write your first JSX app, open `App.js`
+2. Change the JSX to `<h1>Hello, World</h1>`
+3. Upon saving the file, you will see the local page display 'Hello, World'
+
+# Upgrading Node/NPM
+Node comes with npm pre-installed, but the manager is updated more frequently than Node. Run `npm -v` to see which version you have, then `npm install npm@latest -g` to install the newest npm update. Run `npm -v` again if you want to make sure npm updated correctly.
+
+To update Node, you’ll need npm’s handy n module. Run this code to clear npm’s cache, install n, and install the latest stable version of Node:
+
+```
+1. sudo npm cache clean -f
+2. sudo npm install -g n
+3. sudo n stable
+```
+
+To install the latest release, use `n latest`. Alternatively, you can run `n #.#.#` to get a specific Node version.
+
+# Standard React App 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
